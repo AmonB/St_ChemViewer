@@ -20,7 +20,6 @@ if "read_file_path" not in st.session_state:
     st.session_state.read_file_path = None
 
 
-# 路径输入和跳转逻辑
 col1, col2, col3 = st.columns([9, 1, 1])
 with col1:
     current_input = st.text_input(
@@ -185,6 +184,7 @@ st.sidebar.markdown('</div>', unsafe_allow_html=True)
 #                 if st.button(f"📄 {name}", key=f"file_{name}", width='stretch'):
 #                     st.session_state.read_file_path = os.path.join(current, name)
 #                     st.switch_page("pages/file_reader.py")
+
 
 
 
