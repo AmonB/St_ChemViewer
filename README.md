@@ -17,7 +17,7 @@ RMS internal force, Maximum internal displacement, RMS internal displacement)
 
 ## Quickstart
 
-- Start web-app``streamlit run app.py``
+- Start web-app ``streamlit run app.py``
 - Click Analysis
 - Input path to Gaussian files
 - Choose a file
@@ -44,4 +44,5 @@ RMS internal force, Maximum internal displacement, RMS internal displacement)
 
 - If you meet `_ssl import error`, you need to update openssl >= 1.1.1 and rebuild
 your python ``./configure --with-openssl=/path/to/openssl``
+
 
