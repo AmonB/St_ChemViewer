@@ -12,7 +12,7 @@ RMS internal force, Maximum internal displacement, RMS internal displacement)
 - Optimization trajectory
 - Vibration animation
 - Thermochemistry table
-- Export XYZ and energies (suitable for splitting IRC)
+- Export XYZ and energies (suitable for IRC)
 - With port forwarding, no need to download files from the server 
 
 ## Quickstart
@@ -44,5 +44,6 @@ RMS internal force, Maximum internal displacement, RMS internal displacement)
 
 - If you meet `_ssl import error`, you need to update openssl >= 1.1.1 and rebuild
 your python ``./configure --with-openssl=/path/to/openssl``
+
 
 
