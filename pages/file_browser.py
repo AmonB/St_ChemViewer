@@ -78,7 +78,8 @@ except:
 parent_items = [name for name, type_ in items if type_ == "parent"]
 dir_items = [name for name, type_ in items if type_ == "dir"]
 file_items = [name for name, type_ in items if type_ == "file"]
-
+dir_items.sort()
+file_items.sort()
 dir_items = parent_items + dir_items
 
 if dir_items:
@@ -184,6 +185,7 @@ st.sidebar.markdown('</div>', unsafe_allow_html=True)
 #                 if st.button(f"📄 {name}", key=f"file_{name}", width='stretch'):
 #                     st.session_state.read_file_path = os.path.join(current, name)
 #                     st.switch_page("pages/file_reader.py")
+
 
 
 
